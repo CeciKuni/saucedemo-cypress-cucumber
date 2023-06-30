@@ -67,10 +67,10 @@ $ npm test
 ```
 
 ## Conclusiones
-Empecé este proyecto con muchas espectativas, ya que, el formato de Gherkin me parece algo genial pero al llevarlo a Cypress se fue complicando bastante al menos con este framework utilizado. 
+Empecé este proyecto con muchas espectativas, ya que, el formato de Gherkin me parece algo genial pero, al llevarlo a Cypress se fue complicando bastante, al menos con este framework utilizado. 
 - Primero, no permitía repetir los nombres de los steps (tuve que reescribir varias veces los tests).
 - No está soportado el "And" (hay que utilizar otro "Then" en su lugar) ni el "Scenario".
--  Si se tienen más de un test en el mismo feature, se vuelve complicado para armar los casos de automation, ya que sólo podés utilizar Given, When y Then.
--  No pude hacer funcionar el reporte html porque no me generó nunca los archivos .json (no quise seguir investigando porque estuve muchas horas intentando).
--  Como conclusión, es muy interesante y recomiendo al que automatiza, basarse en Gherkin, pero no es necesario instalarse Cucumber. Ya de por sí, Cypress es bastante descriptivo y prefiero seguir utilizando los comandos que ofrece Cypress.
+- Si se tienen más de un test en el mismo feature, se vuelve complicado para armar los casos de automation, ya que sólo podés utilizar Given, When y Then.
+- No pude hacer funcionar el reporte html porque no me generó nunca los archivos .json (no quise seguir investigando porque estuve muchas horas intentando).
+- Como conclusión, es muy interesante y recomiendo al que automatiza, basarse en Gherkin, pero no es necesario instalarse Cucumber. Ya de por sí, Cypress es bastante descriptivo y prefiero seguir utilizando los comandos que ofrece Cypress.
 
