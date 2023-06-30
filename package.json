@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Demo with cucumber examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open"
+  },
+  "author": "Cecilia Kuniyoshi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.16.0",
+    "multiple-cucumber-html-reporter": "^3.4.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "node": "^20.3.1",
+    "nodejs": "^0.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/*/*.js"
+  }
+}
